@@ -1,0 +1,327 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-letras p b {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+body {
+    background-image: url(../imagenes/imagen1-fondo.png);
+    background-color: rgb(44, 44, 116);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-linea {
+    width: 100%;
+    height: 10px;
+    padding: 0;
+    margin: 0;
+    background: rgb(255, 241, 0)
+}
+
+.contenedor-villa {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-v {
+    width: 245px;
+    height: 80px;
+    margin-top: -10px;
+    background: rgb(255, 241, 0);
+}
+
+.logo-v img {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
+.contenedor-villa2 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-con {
+    margin-right: 10px;
+    margin-top: -20px;
+}
+
+.logo-con img {
+    opacity: .7;
+    width: 180px;
+    height: 90px;
+}
+
+.contenedor-letras {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -46px;
+}
+
+.contenedor-letras img {
+    width: 500px;
+}
+
+.contenedor-ciudades {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.center-c {
+    display: flex;
+}
+
+.ciudad {
+    width: 170px;
+    height: 170px;
+    margin: 10px;
+}
+
+.Monterrey {
+    background: url(../imagenes/monterrey2.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.Monterrey:hover {
+    transition: all .5s;
+    background-image: url(../imagenes/monterrey3.png);
+}
+
+.juarez {
+    background: url(../imagenes/Botones-\(CD.-Juarez\).png);
+    background-size: 100% 100%;
+}
+
+.leon {
+    background: url(../imagenes/Botones-\(Leon\).png);
+    background-size: 100% 100%;
+}
+
+.saltillo {
+    background: url(../imagenes/Botones-\(Saltillo\).png);
+    background-size: 100% 100%;
+}
+
+.Hermosillo {
+    background: url(../imagenes/Botones-\(Hermosillo\).png);
+    background-size: 100% 100%;
+}
+
+.culiacan {
+    background: url(../imagenes/culiacan.png);
+    background-size: 100% 100%;
+}
+
+.tijuana {
+    background: url(../imagenes/tijuana.png);
+    background-size: 100% 100%;
+}
+
+.mexicali {
+    background: url(../imagenes/mexicali.png);
+    background-size: 100% 100%;
+}
+
+.slogan {
+    width: 70%;
+    margin: auto;
+}
+
+p {
+    padding: 10px;
+    color: #dfdfdf;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+b {
+    font-size: 24px;
+    opacity: 1;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(8, 33, 99);
+    opacity: .9;
+}
+
+@media (min-width:2000px) {
+    footer {
+        margin-top: 340px;
+    }
+    .slogan {
+        width: 85%;
+    }
+    .slogan p {
+        font-size: 25px;
+    }
+    .ciudad {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+.link-secundario {
+    display: flex;
+    padding: 10px;
+}
+
+.link-principal {
+    padding: 10px;
+    display: flex;
+}
+
+.con-links img {
+    width: 160px;
+}
+
+.con-links {
+    width: 70%;
+    padding: 0px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width:800px) {
+    .con-links {
+        width: 85%;
+    }
+}
+
+.con-links .sb {
+    border-left: none;
+    margin-left: 25px;
+}
+
+.con-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 17px;
+    border-left: solid white 2px;
+    opacity: .7;
+    padding-left: 17px;
+}
+
+.con-links a:hover {
+    opacity: 1;
+}
+
+@media (max-width:700px) {
+    .nvm {
+        display: none;
+    }
+    .link-secundario {
+        padding-bottom: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+    .link-secundario .av {
+        margin: 0;
+        padding: 5px;
+    }
+    .link-principal {
+        padding-bottom: ;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0px;
+    }
+    .link-principal a {
+        margin: 5px;
+        padding: 0px;
+        text-align: center;
+    }
+    .link-principal a.i {
+        margin-left: 0px;
+    }
+    body {
+        background-size: cover;
+    }
+    .imagen-v {
+        background: url(../imagenes/v.png);
+        background-size: 100% 100%;
+        width: 160px;
+        height: 31px;
+    }
+    .imagen-villareal {
+        width: 100%;
+        margin-left: -20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer {
+        width: 100%;
+        height: 150px;
+    }
+    .contenedor-letras img {
+        width: 300px;
+    }
+    .logo-con {
+        display: none;
+    }
+    .ciudad {
+        width: 140px;
+        height: 140px;
+    }
+    .con-links {
+        width: 100%;
+        background: ;
+    }
+    .con-links a {
+        font-size: 14px;
+        border: none;
+    }
+    .link-principal a {
+        font-size: 16px;
+    }
+    .slogan {
+        width: 100%;
+        background: ;
+        padding: 10px;
+    }
+    .slogan p {
+        font-size: 14px;
+    }
+    b {
+        font-size: 19px;
+    }
+    .contenedor-ciudades {
+        width: 100%;
+    }
+}
